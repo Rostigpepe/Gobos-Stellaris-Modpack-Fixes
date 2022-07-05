@@ -1,7 +1,6 @@
-version="3.3.*"
+version="3.4.*"
 tags={
 	"Balance"
-	"Utilities"
 }
 name="!Gobos Modpack fixes"
-supported_version="3.3.*"
+supported_version="3.4.*"
