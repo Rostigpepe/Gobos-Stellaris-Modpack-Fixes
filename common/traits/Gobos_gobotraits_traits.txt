@@ -1,0 +1,13 @@
+trait_gobotraits_hyper_intelligent = {
+	cost = 2
+	potential_crossbreeding_chance = 1.0
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		planet_jobs_engineering_research_produces_mult = 0.25
+		planet_jobs_physics_research_produces_mult = 0.25
+		planet_jobs_society_research_produces_mult = 0.25
+	}
+	slave_cost = {
+		energy = 1250
+	}
+}
