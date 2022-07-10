@@ -1,0 +1,30 @@
+#I want to try hidden civic buffs, so ill use this to add a empire wide modifier at game start
+
+namespace = gobos_civics
+
+#### HIDDEN GAME START EVENTS ####
+
+#Standard Procedure
+event = {
+	id = gobos_civics.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			limit = {
+				AND = {
+					NOT = {
+						has_country_flag = flag_gobos_civics_standard_procedure
+					}
+					has_civic = civic_gobos_standard_procedure
+				}
+			}
+			add_modifier = {
+			modifier = staticMod_gobos_civics_standard_procedure
+			days = -1
+			}
+			set_country_flag = flag_gobos_civics_standard_procedure
+		}
+	}
+}

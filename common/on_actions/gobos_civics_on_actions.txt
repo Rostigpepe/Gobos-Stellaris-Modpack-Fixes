@@ -1,0 +1,12 @@
+#These events trigger when the game starts
+on_game_start = {
+	event = {
+		gobos_civics.1
+	}
+}
+
+on_yearly_pulse = {
+	events = {
+		gobos_civics.1
+	}
+}

@@ -1,5 +1,5 @@
 trait_gobotraits_hyper_intelligent = {
-	cost = 2
+	cost = 4
 	potential_crossbreeding_chance = 1.0
 	allowed_archetypes = { BIOLOGICAL LITHOID }
 	modifier = {
@@ -10,4 +10,8 @@ trait_gobotraits_hyper_intelligent = {
 	slave_cost = {
 		energy = 1250
 	}
+	ai_weight = {
+		weight = 1
+	}
+	opposites = {"trait_intelligent"}
 }
