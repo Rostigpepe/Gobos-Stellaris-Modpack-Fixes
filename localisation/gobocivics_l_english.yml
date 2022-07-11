@@ -3,6 +3,12 @@
 #### CIVICS ####
 
 #STANDARD PROCEDURE
-
 civic_gobos_standard_procedure:0 "Standard Procedure"
 civic_gobos_standard_procedure_desc:0 "By following standard procedures, this empire is more efficient"
+
+
+#### STATIC MODIFIERS ####
+
+#STANDARD PROCEDURE
+staticMod_gobos_civics_standard_procedure:0 "Standard Procedure"
+staticMod_gobos_civics_standard_procedure_desc:0 "Standard procedures creates efficiency"

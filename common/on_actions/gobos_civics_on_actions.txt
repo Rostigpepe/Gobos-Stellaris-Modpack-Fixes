@@ -1,6 +1,6 @@
 #These events trigger when the game starts
 on_game_start = {
-	event = {
+	events = {
 		gobos_civics.1
 	}
 }
